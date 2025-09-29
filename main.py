@@ -30,8 +30,8 @@ time.sleep(3)
 print("И я прошу не вспоминай меня пока я здесь, пока я еще жив")
  """
 
-""" 
-import time
+
+""" import time
 import random
 namber = random.randint(1, 19)
 def untericht(lernen):
@@ -44,15 +44,15 @@ untericht("матиматика")  """
 
 
 
-""" # Введення (отримання даних)
-vlados = input("Введіть ваше ім'я: ")
+# Введення (отримання даних)
+""" vlados = input("Введіть ваше ім'я: ")
 
 # Перетворення (обробка даних)
 hallo = (f"Привіт, {vlados}!")
 
 # Виведення (виведення даних)
-print(hallo)
- """
+print(hallo) """
+
 
 """ begrüsung = input("Введіть ваше ім'я: ")
 
@@ -68,3 +68,17 @@ namber = input("Write down the number: ")
 namber_teip = (f"Thank you for the number {namber}")
 
 print(namber_teip) """
+
+""" name = input("name: ")
+
+hello = (f"hallo { Тут можна використовувати функцію }")
+print(hello) """
+
+""" mein_name = input("Введи своє ім’я: ")
+mein_age = int(input("Введи свій вік: "))   # переводимо у число
+wird = "Через 5 років"
+age_5 = mein_age + 5
+
+print(f"Привіт, {mein_name}! Тобі {mein_age} років.")
+print(f"{wird} тобі буде {age_5}.")
+ """
