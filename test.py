@@ -65,6 +65,7 @@ produkten_kosten = produkten * kosten
 
 print(f"Ти купив {produkten} товар(и) по {kosten}грн. Загальна сума: {produkten_kosten} грн.") """
 
+
 """ schuger = int(input("скільки всього цукерок у коробці: ")) #Коли обчислюю дві дії то потрібно 
 kids_schuger = int(input("скільки дітей отримають цукерки: "))#використовувати int і даже коли щось одне використовую 
 
@@ -72,3 +73,141 @@ frik_schger = schuger // kids_schuger
 frik_msik = schuger % kids_schuger #для вичеслення залишку 
 
 print(f"У кожної дитини буде по {frik_schger} цукерки. Залишок цукерок: {frik_msik}") """
+
+
+
+""" some_iterable = ["a", "b", "c"]
+first_letter = some_iterable[-0]
+middle_one = some_iterable[-1]
+last_letter = some_iterable[-2]
+
+print(first_letter, middle_one, last_letter)
+
+some_iterable = [1, 2, 3, 4]
+some_iterable[1] = 22222
+print(some_iterable) """
+
+""" chars = ['a', 'b', 'c']
+
+list = chars.pop(1)
+print(list)
+
+ """
+
+""" chars = ['a', 'b', 'c']
+numbers = [1, 2]
+chars.extend(numbers)
+print(chars) """
+
+""" age = 52
+age *= 7 # скорочення
+print(age)  """
+
+""" test_age = int(input("твій вік: "))
+
+if test_age >= 18:
+    print("ти можеш проводити час як хочеш")
+elif test_age >= 16:
+    print("2 години")
+else:
+   print("ти не можеш проводити час як хочеш") """
+
+# ТЗ:
+# Напиши програму, яка запитує число у користувача
+# і виводить "Парне", якщо воно парне, і "Непарне", якщо ні.
+
+""" user_nambers = int(input("your numbers: ")) #Умова парності: Число є парним, 
+if user_nambers  % 2 == 0:
+    print("парне")     #якщо при діленні на 2 воно не залишає остачі, тобто остача дорівнює 0
+else: 
+    print("Непарне") """
+
+# ТЗ:
+# Користувач вводить число.
+# Програма визначає: це позитивне, негативне чи нуль.
+""" 
+user_tex = int(input("your numbers: "))
+if user_tex  == 0:
+    print("нуль")
+elif user_tex >= 0: 
+    print("positiv")
+else:
+    print("negativ") """
+
+# ТЗ:
+# Програма запитує пароль.
+# Якщо введено "python123", виводить "Доступ дозволено".
+# Інакше — "Неправильний пароль".
+
+""" passwort = input("passwort: ")
+
+if passwort == "python123":
+ print("Доступ дозволено")
+else:
+ print("Неправильний пароль")
+ """
+""" passwort = input("passwort: ") """
+
+""" if passwort == "python123":
+    print("Доступ дозволено")
+else:
+    print("Неправильний пароль") """
+
+
+# kontrol l putzt alle in terminan
+
+# ТЗ:
+# Запитай температуру (у градусах Цельсія).
+# Якщо менше 0 — виведи "Мороз".
+# Якщо від 0 до 20 — "Прохолодно".
+# Якщо більше 20 — "Тепло".
+
+""" user_temperatur = int(input("градуси: "))
+
+if user_temperatur < 0:
+    print("Мороз")
+elif user_temperatur <= 20:
+    print("Прохолодно")
+elif user_temperatur > 35:
+    print(" жара")# print має бути на рівні з іншими типу пробілу
+else:
+    print("Тепло") """
+
+# ТЗ:
+# Користувач вводить оцінку (0-100).
+# Виведи:
+# 90-100 -> "Відмінно"
+# 70-89  -> "Добре"
+# 50-69  -> "Задовільно"
+# менше 50 -> "Погано"
+
+""" user = int(input("оціни роботу від (0 - 100): "))
+
+if user >= 90:
+    print("Відмінно")
+elif user >= 70:
+    print("Добре")
+elif user >= 50:
+    print("Задовільно")
+else:
+    print("Погано") #ураааа з першого разу написав
+
+ """
+""" 
+x = int(input('Введіть число: '))
+
+if x % 2 == 0:
+    print("Число x є парним.")
+else:
+    print("Число x є непарним.")
+ """
+
+""" name_user = [1, 2, 3, 4, 5]
+user = name_user
+name = [1, 2, 3, 4, 5]
+if user is name_user:
+    print("правда")
+else:
+    print("неправда") 
+  """
+
