@@ -214,3 +214,75 @@ else:
 lange = len(str(namber))
 if lange == 3 and namber % 2 == 0:
     print("erorr") """
+
+
+""" def greet(name):
+    # твій код тут
+    print('hallo' + ' ' + name)
+
+user_inport = input('name: ')
+greet(user_inport) """
+
+""" def add_numbers(a, b):
+    # твій код тут
+    nambers = a + b
+    print(f'{nambers}')
+
+user_input = int(input('nambers: '))
+user_input2 = int(input('nambers2: '))
+add_numbers(user_input, user_input2) """
+
+""" def check_number(num):
+    # твій код тут
+    if num % 2 == 0:
+        print(f'{num}: парне число')
+    elif not num % 2 == 0:
+        print(f'{num}: не парне число')
+
+user_input = int(input('nambers: '))
+check_number(user_input)
+ """
+""" 
+Напиши функцію, яка обчислює факторіал числа """
+""" def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i  # множимо всі числа від 1 до n
+    return result
+
+# користувач вводить число
+num = int(input("Введи число: "))
+print(f"Факторіал числа {num}:", factorial(num))
+ """
+
+""" 
+def greet(name):
+    print("hallo" + " " + name)
+
+user_name = input("your names:")
+greet(user_name) """
+
+""" def print_max(a, b):
+    if a > b:
+        print(a, 'максимально')
+    elif a == b:
+        print(a, 'дорівнює', b)
+    elif a and b % 2 == 0:
+        print("парне число")
+    else:
+        print(b, 'максимально')
+
+print_max(3, 4)  # пряма передача значень
+
+x = int(input("nambers: "))
+y = int(input("nambers: "))
+print_max(x, y)  # передача змінних у якості аргументів
+ """
+
+num = [11, 2, 6, 1, 8, 88, 120, 123]
+
+def nambere_nan(nambers):
+    if not nambers[0] > nambers[6]:
+        print(min(nambers))
+
+print(nambere_nan(num))
