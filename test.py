@@ -211,3 +211,101 @@ else:
     print("неправда") 
   """
 
+# Написати програму, яка приймає список чисел від користувача,
+#  сортує їх від найменшого до найбільшого і виводить результат.
+
+# 📋 Умови:
+# Користувач вводить кілька чисел через пробіл.
+# Програма перетворює ці числа у список.
+# Сортує список у порядку зростання (від найменшого до найбільшого).
+# Виводить відсортований список на екран.
+""" """ 
+""" def nambers_sort(nambers):
+    nambers.sort()
+    print('Відсортовані числа: ', nambers)
+
+user = input('nambers: ')
+nambers = list(map(int, user.split()))
+nambers_sort(nambers)
+ """
+
+
+# Напиши програму, яка приймає 3 числа і виводить їх у порядку зростання.
+# 🧠 Підказка: використай sorted().
+""" 
+def sort_nambers(nambers):
+    nambers.sort()
+    print('Введи три числа: ', nambers)
+
+
+nambers_input = input('веди три числа: ')
+nambers = list(map(int, nambers_input.split()))
+sort_nambers(nambers)
+ """
+
+""" time fanktion """
+
+
+""" import datetime
+now = datetime.datetime.now()
+print(now)
+ """
+
+
+""" from datetime import datetime
+
+def new_time(time):
+    if time == 'new time':
+        now = datetime.now()
+        print(now.time())
+    else:
+        print("Введіть 'new time', щоб побачити час.")
+
+
+user_input = input('time: ')
+new_time(user_input)
+ """
+
+"""
+current_datetime = datetime.now()
+ print(current_datetime.year)
+print(current_datetime.month)
+print(current_datetime.day)
+print(current_datetime.hour)
+print(current_datetime.minute)
+print(current_datetime.second)
+print(current_datetime.microsecond)
+print(current_datetime.tzinfo)
+
+ """
+
+""" 
+from datetime import datetime
+
+# Створення об'єкта datetime
+now = datetime.now()
+
+# Отримання номера дня тижня
+day_of_week = now.weekday()
+
+# Поверне число від 0 (понеділок) до 6 (неділя)
+print(f"Сьогодні: {day_of_week}")  
+ """
+
+
+""" from datetime import datetime
+
+def get_days_from_today(date):
+    now = datetime.now()
+    nambers = datetime.now() + now
+    print (date.now() and nambers)
+
+
+nam = 5
+get_days_from_today(nam) """
+
+
+""" import random
+
+def get_numbers_ticket(min, max, quantity):
+    if min.random() >= 1 and max.random() <= 1000: """

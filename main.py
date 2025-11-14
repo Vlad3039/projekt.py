@@ -279,10 +279,137 @@ y = int(input("nambers: "))
 print_max(x, y)  # передача змінних у якості аргументів
  """
 
+""" 
 num = [11, 2, 6, 1, 8, 88, 120, 123]
 
 def nambere_nan(nambers):
-    if not nambers[0] > nambers[6]:
-        print(min(nambers))
+    print(max(nambers))
+    
+nambere_nan(num) """
 
-print(nambere_nan(num))
+""" 
+def greet(name: str) -> str:
+    if name.isupper():
+        print('з велткої літери')
+    return (f"Привіт, {name}!")
+greeting = input('your names: ')
+print(greeting)  # Виведе: Привіт, Олексій!
+ """
+
+
+""" 
+def user_nik(names):
+    if not names:
+        print("i need nemes: ")
+    else:
+        print(f"{names} привіт бро")
+
+
+user_nemes = input("user names: ")
+user_nik(user_nemes) """
+""" 
+def string_to_codes(string: str) -> dict:
+    # Ініціалізація словника для зберігання кодів
+    codes = {}  
+    # Перебір кожного символу в рядку
+    for ch in string:  
+        # Перевірка, чи символ вже є в словнику
+        if ch not in codes:
+            # Додавання пари символ-код в словник  
+            codes[ch] = ord(ch)  
+    return codes
+
+
+result = string_to_codes("Hello world!")
+print(result)
+ """
+
+""" my_drim = 18
+
+def drim(my):
+    global my_drim
+    if my < my_drim:
+        print("роби")
+    else:
+        print("ти зміг")
+
+
+home = int(input("nambers"))
+drim(home) """
+
+""" from datetime import datetime
+
+def get_days_from_today(date):
+ 
+    try:
+       
+        target_date = datetime.strptime(date, '%Y-%m-%d').date()
+        
+        today = datetime.today().date()
+        
+        delta = (target_date - today).days
+        return delta
+    except ValueError:
+        
+        print("Неправильний формат дати. Використовуйте 'РРРР-ММ-ДД'.")
+        return None
+
+
+print(get_days_from_today("2021-10-09"))
+ """
+
+""" def print_numbers(n):
+    for i in range(1, n + 1):
+        print(i)
+
+print_numbers(5)
+ """
+
+""" def multiplication_table(n):
+    for i in range(1, 11): # Тому що рахується з нуля 
+                            # і нам було потрібно пробувати числа через які ми будемо рахувати 
+        print(f"{n} x {i} = {n * i}") # А тут ми рахуємо за допомогою {n * i}
+
+
+user_input = int(input("yours nambers: "))
+multiplication_table(user_input) """
+
+# 🧠 Завдання 3: Підрахунок голосних
+# ТЗ:
+# Створи функцію count_vowels(text),
+# яка підраховує кількість голосних літер (a, e, i, o, u) у слові або реченні.
+
+
+
+""" def count_vowels(text):
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    text_vowels = 0
+
+    for letter in text.lower():
+        if letter in vowels:
+            text_vowels += 1
+    
+    print(f"Кількість голосних: {text_vowels}")
+
+
+user_input = input('text: ')
+count_vowels(user_input) """
+
+
+""" def filter_lower(words):
+    list_text = []
+    for i in words:
+        lowe_words = i.lower()
+        if len(lowe_words) > 3 and lowe_words[0] == "a":
+            list_text.append(lowe_words)
+    return list_text
+
+input_list = ["Apple", "Art", "Banana", "area", "Ant", "Car"]
+print(filter_lower(input_list)) """
+""" 
+for char in "Hello 123":
+    if char.isdigit():
+        print(f"'{char}' - це цифра")
+    else:
+        print(f"'{char}' - не цифра")
+ """
