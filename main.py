@@ -413,3 +413,27 @@ for char in "Hello 123":
     else:
         print(f"'{char}' - не цифра")
  """
+
+
+""" def min_namber(namber):
+    user_namber = namber[0]# припускаємо, що перший елемент — мінімальний
+    for i in namber:
+        if i < user_namber:
+            user_namber = i
+    print(user_namber) # виводимо мінімальне значення
+
+user_nan = [5, 3, 7, 2, 9]
+min_namber(user_nan) """
+
+
+def nambers_sort(nambers):
+    for i in nambers:
+        if i > 10:
+            print('ja')
+        else:
+            print('nein')
+
+
+user_input = input('namberss: ')
+numbers_list = list(map(int, user_input.split()))
+nambers_sort(numbers_list)
