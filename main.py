@@ -426,7 +426,7 @@ user_nan = [5, 3, 7, 2, 9]
 min_namber(user_nan) """
 
 
-def nambers_sort(nambers):
+""" def nambers_sort(nambers):
     for i in nambers:
         if i > 10:
             print('ja')
@@ -436,4 +436,59 @@ def nambers_sort(nambers):
 
 user_input = input('namberss: ')
 numbers_list = list(map(int, user_input.split()))
-nambers_sort(numbers_list)
+nambers_sort(numbers_list) """
+
+""" class Solution:
+    def generate(self, numRows: int) -> List[List[int]]:
+        triangle = []
+
+        for row in range(numRows):
+            # Починаємо кожен рядок з 1
+            current = [1] * (row + 1)
+
+            # Заповнюємо внутрішні елементи (якщо вони є)
+            for j in range(1, row):
+                current[j] = triangle[row - 1][j - 1] + triangle[row - 1][j]
+
+            triangle.append(current)
+
+        return triangle
+
+generate(3)
+ """
+
+
+""" import tkinter as tk 
+
+modal = 0
+
+def one_click():
+    global modal
+    modal += 1
+    print(modal)
+
+root = tk.Tk()
+
+btn = tk.Button(root,text="Нажми меня",command=one_click)
+btn.pack()
+
+
+root.mainloop() """
+
+import tkinter as tk
+
+mate = 0
+
+def cliker_click():
+    global mate
+    mate += 1
+    btn.config(text=str(mate))
+
+
+root = tk.Tk()
+
+btn = tk.Button(root, text="0", command=cliker_click)
+
+btn.pack()
+
+root.mainloop()
