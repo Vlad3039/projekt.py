@@ -475,7 +475,7 @@ btn.pack()
 
 root.mainloop() """
 
-import tkinter as tk
+""" import tkinter as tk
 
 mate = 0
 
@@ -491,4 +491,4 @@ btn = tk.Button(root, text="0", command=cliker_click)
 
 btn.pack()
 
-root.mainloop()
+root.mainloop() """

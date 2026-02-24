@@ -309,3 +309,16 @@ get_days_from_today(nam) """
 
 def get_numbers_ticket(min, max, quantity):
     if min.random() >= 1 and max.random() <= 1000: """
+
+""" userIndex = int(input("haw match many do you haw?: "))
+
+def userNamber(namber):
+    if namber % 2 == 0:
+        print(f"produkts {namber / 2} ")
+    elif namber % 3 == 0:
+        print(f"pridukt: {namber / 3}")
+    elif namber % 5 == 0:
+        print(f"produkts: {namber / 5}")
+
+
+userNamber(userIndex) """
